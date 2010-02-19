@@ -1,0 +1,33 @@
+ ~ Could not load ./spec/fixture/app/controllers/sexy_grid.rb:
+
+undefined method `action' for SexyGridSpecs:Class - (NoMethodError)
+
+./spec/../lib/merb-sexy-grid/controller/mixins/sexy_grid.rb:15:in `grid'
+./spec/fixture/app/controllers/sexy_grid.rb:2
+D:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+D:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:920:in `load_file'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:1075:in `load_classes_with_requirements'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:1072:in `each'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:1072:in `load_classes_with_requirements'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:960:in `load_classes'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:693:in `run'
+D:/Ruby/lib/ruby/gems/1.8/gems/extlib-0.9.13/lib/extlib/dictionary.rb:268:in `each'
+D:/Ruby/lib/ruby/gems/1.8/gems/extlib-0.9.13/lib/extlib/dictionary.rb:268:in `each'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:691:in `run'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/bootloader.rb:99:in `run'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/server.rb:172:in `bootup'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core/server.rb:42:in `start'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core.rb:172:in `start'
+D:/Ruby/lib/ruby/gems/1.8/gems/merb-core-1.1/lib/merb-core.rb:185:in `start_environment'
+./spec/spec_helper.rb:18
+D:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+D:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./spec/sexy_grid_spec.rb:2
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/lib/spec/runner/example_group_runner.rb:14:in `load'
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/lib/spec/runner/example_group_runner.rb:13:in `each'
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/lib/spec/runner/example_group_runner.rb:13:in `load_files'
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/lib/spec/runner/options.rb:98:in `run_examples'
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/lib/spec/runner/command_line.rb:19:in `run'
+D:/Ruby/lib/ruby/gems/1.8/gems/rspec-1.1.4/bin/spec:4

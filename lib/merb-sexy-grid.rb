@@ -3,6 +3,7 @@
 dir = File.dirname(__FILE__) / 'merb-sexy-grid'
 require dir + '/builder'
 require dir + '/grid'
+require dir + '/controller/mixins/sexy_grid'
 
 module Merb::GlobalHelpers
   include Merb::Helpers::Grid
@@ -12,6 +13,7 @@ Merb::Plugins.add_rakefiles "merb-sexy-grid/merbtasks"
 
 class Merb::AbstractController
   class_inheritable_accessor :_default_grid_builder
+  include Merb::SexyGridMixin
 end
 
 Merb::BootLoader.after_app_loads do

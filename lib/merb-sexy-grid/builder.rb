@@ -23,7 +23,7 @@ module Merb::Helpers::Grid
 	    end
 
 	    def grid(attrs = {}, &blk)
-				header = tag(:thead, tag(:tr, @origin.capture(&blk)))
+				header = tag(:thead, tag(:tr, @origin.capture(&blk))).gsub(/\n/, '').gsub(/\>\s+\</, '><')
 				content = ""
 					@obj.each do |row|	
 						row_content = ""
@@ -32,7 +32,7 @@ module Merb::Helpers::Grid
 						end
 						content = content + tag(:tr, row_content, :class => ('even' if (row[:id]%2 == 0)))
 					end	
-				tag(:table, tag(:tbody, header + content), :class => 'list')
+				tag(:table, tag(:tbody, header + content), attrs)
 			end
 
 			def column(title, name, attrs = {}, &blk)

@@ -1,0 +1,10 @@
+h1. merb-sexy-grid
+
+
+<pre><code>
+<%= grid_for(@item) do %>
+  <%= column 'Id', :id %>
+  <%= column 'Name', :name %>
+<% end =%>
+</code></pre>
+
